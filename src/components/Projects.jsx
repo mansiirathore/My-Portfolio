@@ -1,5 +1,9 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import quizverseImg from '../assets/quizverse.png';
+import jobsyImg from '../assets/jobsy.png';
+import predictorImg from '../assets/score-predictor.png';
+
 
 const projects = [
     {
@@ -9,7 +13,7 @@ const projects = [
         tech: ["HTML", "CSS", "JavaScript"],
         live: "https://mansiirathore.github.io/quizverse/",
         github: "https://github.com/mansiirathore/quizverse",
-        image: "/images/quizverse.png",
+        image: quizverseImg,
     },
     {
         title: "Jobsy",
@@ -18,7 +22,7 @@ const projects = [
         tech: ["React", "Tailwind CSS"],
         live: "https://mansiirathore.github.io/Jobsy/",
         github: "https://github.com/mansiirathore/Jobsy",
-        image: "/images/jobsy.png",
+        image: jobsyImg,
     },
     {
         title: "Score Predictor",
@@ -27,7 +31,7 @@ const projects = [
         tech: ["Python", "Streamlit", "Pandas"],
         live: "https://performance-predictor-qzwwcxsktmsjghlfqehrvx.streamlit.app/",
         github: "https://github.com/mansiirathore/performance-predictor",
-        image: "/images/score-predictor.png",
+        image: predictorImg,
     },
 ];
 
