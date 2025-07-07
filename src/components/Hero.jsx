@@ -28,7 +28,7 @@ export default function Hero() {
                         View Projects
                     </a>
                     <a
-                        href="/Mansi_Rathore_Resume.pdf"
+                        href="/My-Portfolio/Mansi_Rathore_Resume.pdf"
                         download
                         className="px-6 py-3 rounded-full border border-white text-white hover:bg-white hover:text-background transition-all"
                     >
